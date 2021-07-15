@@ -1,0 +1,16 @@
+{
+  "apiVersion": "v1",
+  "type": "powershell",
+  "name": "my-package",
+  "displayName": "MyPackage",
+  "description": "",
+  "version": "0.0.1",
+  "publisher": "voleer",
+  "icon": "icon.png",
+  "license": "UNLICENSED",
+  "keywords": [],
+  "powershell": {
+    "engine": "5.1",
+    "install": "Install.ps1"
+  }
+}
