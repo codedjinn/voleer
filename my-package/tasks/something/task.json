@@ -1,0 +1,21 @@
+{
+    "apiVersion": "v1",
+    "displayName": "Something",
+    "description": "Do something...",
+    "inputs": [
+      {
+        "name": "message",
+        "displayName": "Message",
+        "description": "Input message to be displayed.",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "message",
+        "displayName": "Message",
+        "description": "Same value as input message."
+      }
+    ]
+  }
+  

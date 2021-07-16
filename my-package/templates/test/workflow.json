@@ -1,0 +1,19 @@
+{
+    "$schema": "https://go.voleer.dev/schemas/v1/workflow.json",
+    "apiVersion": "v1",
+    "body": {
+        "name": "root",
+        "description": "steps",
+        "type": "sequence",
+        "items": [
+            {
+                "name": "doSomething",
+                "type": "packageTask",
+                "displayName": "Doing Something",
+                "description": "PEW PEW PEW!",
+                "package": "voleer/my-package",
+                "task": "something"
+            }
+        ]
+    }
+}
