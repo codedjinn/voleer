@@ -1,0 +1,25 @@
+{
+    "$schema": "https://go.voleer.dev/schemas/v1/workflow.json",
+    "apiVersion": "v1",
+    "body": {
+        "name": "main",
+        "type": "form",
+        "displayName": "Testing out forms",
+        "description": "Was ist das?",
+        "components": [
+            {
+                "name": "instructions",
+                "type": "paragraph",
+                "content": "# Headline\nOH BOY!"
+            },
+            {
+                "type": "textInput",
+                "description": "Type some stuff",
+                "label": "Type iT!",
+                "name": "typeIt",
+                "required": true
+            }
+        ]       
+        
+    }
+}
