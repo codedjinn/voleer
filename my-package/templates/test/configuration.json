@@ -10,7 +10,7 @@
             {
                 "name": "instructions",
                 "type": "paragraph",
-                "content": "# Headline\nOH BOY!"
+                "content": "<div>This is HTML baby!</div>"
             },
             {
                 "type": "textInput",
