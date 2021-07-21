@@ -1,0 +1,24 @@
+{
+    "$schema": "http://go.voleer.dev/schemas/v1/workflow.json",
+    "apiVersion": "v1",
+    "body": {
+      "name": "root",
+      "description": "Sequence of steps.",
+      "type": "sequence",
+      "items": [
+        {
+          "name": "refreshData",
+          "type": "packageTask",
+          "displayName": "Get and Save Random Data",
+          "description": "Gets and Save random data to the dataset",
+          "package": "voleer/my-package",
+          "task": "save-data",
+          "inputs": {
+            "customUri": "${configuration.steps.form.outputs.customUri}",
+            "myData": "${configuration.steps.form.outputs.myData}"
+          }
+        }
+      ]
+    }
+  }
+  

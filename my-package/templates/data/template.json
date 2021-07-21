@@ -1,0 +1,12 @@
+{
+    "$schema": "https://go.voleer.dev/schemas/v1/template.json",
+    "apiVersion": "v1",
+    "type": "dataset",
+    "name": "testing-data-sets",
+    "displayName": "My Data Sets Tests",
+    "description": "Exploring data sets.",
+    "defaultSchedulePattern": "0 12 * * *",
+    "dataSchemaVersion": "0.0.1",
+    "keywords": []
+  }
+  

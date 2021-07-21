@@ -1,0 +1,21 @@
+{
+    "apiVersion": "v1",
+    "displayName": "Get and Save Random Data",
+    "description": "Gets and saves random data to the dataset.",
+    "inputs": [
+      {
+        "name": "customUri",
+        "displayName": "Custom endpoint.",
+        "description": "Custom endpoint.",
+        "required": true
+      },
+      {
+        "name": "zipCode",
+        "displayName": "The location's zip code.",
+        "description": "The location's zip code to retrieve weather data for.",
+        "required": true
+      }
+    ],
+    "outputs": []
+  }
+  

@@ -1,0 +1,28 @@
+{
+    "$schema": "https://go.voleer.dev/schemas/v1/workflow.json",
+    "apiVersion": "v1",
+    "body": {
+      "type": "form",
+      "description": "Get some data",
+      "name": "form",
+      "displayName": "Data Inputs",
+      "validation": {
+        "scriptPath": "./validation.ps1"
+      },
+      "components": [
+        {
+          "name": "instructions",
+          "type": "paragraph",
+          "content": "# Enter some data"
+        },
+        {
+          "type": "textInput",
+          "description": "Data",
+          "label": "Random",
+          "name": "myData",
+          "required": true
+        }
+      ]
+    }
+  }
+  
