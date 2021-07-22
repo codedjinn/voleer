@@ -1,0 +1,25 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "type": "object",
+    "anyOf": [{ "$ref": "#/definitions/Forecast" }],
+    "definitions": {
+      "Forecast": {
+        "type": "object",
+        "required": ["id", "zipCode"],
+        "properties": {
+          "id": { "type": "string" },
+          "startTime": { "type": "string", "format": "date-time" },
+          "endTime": { "type": "string", "format": "date-time" },
+          "isDaytime": { "type": "boolean" },
+          "temperature": { "type": "integer" },
+          "temperatureUnit": { "type": "string" },
+          "windSpeed": { "type": "string" },
+          "windDirection": { "type": "string" },
+          "shortForecast": { "type": "string" },
+          "detailedForecast": { "type": "string" },
+          "zipCode": { "type": "string" }
+        }
+      }
+    }
+  }
+  
