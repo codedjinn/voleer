@@ -5,6 +5,11 @@ $VerbosePreference='Continue'
 
 Write-Information "Getting random data: '$customUri', '$myData'"
 
+
+Write-Information "Waiting"
+
+Start-Sleep -Seconds 120
+
 $json = "{ 'id': '1', 'static': 'STATIC', 'random': '$myData' }"
 
 Write-Information "Writing data..."

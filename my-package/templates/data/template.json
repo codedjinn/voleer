@@ -5,7 +5,6 @@
     "name": "testing-data-sets",
     "displayName": "My Data Sets Tests",
     "description": "Exploring data sets.",
-    "defaultSchedulePattern": "0 12 * * *",
     "dataSchemaVersion": "0.0.1",
     "keywords": []
   }
