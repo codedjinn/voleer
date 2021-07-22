@@ -1,19 +1,18 @@
 [CmdletBinding()]
-param ([string]$customUri, [string]$myData)
+param ([string]$customUri, [string]$time)
 
 $VerbosePreference='Continue'
 
-Write-Information "Getting random data: '$customUri', '$myData'"
-
+Write-Information "Getting random data: '$customUri', '$time'"
 
 Write-Information "Waiting"
 
-Start-Sleep -Seconds 360
+Start-Sleep -Seconds $time
 
-$json = "{ 'id': '1', 'static': 'STATIC', 'random': '$myData' }"
+$json = "{ 'id': '1', 'static': 'STATIC', 'random': '$time' }"
 
 Write-Information "Writing data..."
 
-Write-VoleerData -TypeName "MyData" -Items $json
+Write-VoleerData -TypeName "Stall" -Items $json
 
 Write-Information "DONE"

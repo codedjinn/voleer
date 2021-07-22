@@ -7,12 +7,12 @@
         "name": "customUri",
         "displayName": "Custom endpoint.",
         "description": "Custom endpoint.",
-        "required": true
+        "required": false
       },
       {
-        "name": "zipCode",
-        "displayName": "The location's zip code.",
-        "description": "The location's zip code to retrieve weather data for.",
+        "name": "time",
+        "displayName": "Time",
+        "description": "Time in seconds.",
         "required": true
       }
     ],

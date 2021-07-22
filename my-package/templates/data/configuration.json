@@ -13,13 +13,13 @@
         {
           "name": "instructions",
           "type": "paragraph",
-          "content": "# Enter some data"
+          "content": "# Enter time to stall"
         },
         {
           "type": "textInput",
-          "description": "Data",
-          "label": "Random",
-          "name": "myData",
+          "description": "Time to wait in seconds",
+          "label": "Seconds",
+          "name": "time",
           "required": true
         }
       ]
