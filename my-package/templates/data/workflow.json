@@ -7,17 +7,25 @@
       "type": "sequence",
       "items": [
         {
+          "name": "doSomething",
+          "type": "packageTask",
+          "displayName": "Doing Something",
+          "description": "PEW PEW PEW!",
+          "package": "voleer/my-package",
+          "task": "something"
+      },
+        {
           "name": "refreshData",
           "type": "packageTask",
-          "displayName": "Get and Save Random Data",
-          "description": "Gets and Save random data to the dataset",
+          "displayName": "Wait",
+          "description": "Wait and save",
           "package": "voleer/my-package",
           "task": "save-data",
           "inputs": {
             "customUri": "${configuration.steps.form.outputs.customUri}",
             "myData": "${configuration.steps.form.outputs.myData}"
           }
-        }
+        }        
       ]
     }
   }
