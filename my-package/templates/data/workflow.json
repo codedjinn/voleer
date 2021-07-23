@@ -1,6 +1,10 @@
 {
     "$schema": "http://go.voleer.dev/schemas/v1/workflow.json",
     "apiVersion": "v1",
+    "timeout": {
+      "durationInSeconds": 1,
+      "action": "error"
+    },
     "body": {
       "name": "root",
       "description": "Sequence of steps.",
