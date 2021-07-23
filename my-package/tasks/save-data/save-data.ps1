@@ -3,8 +3,6 @@ param ([string]$customUri, [string]$time)
 
 $VerbosePreference='Continue'
 
-throw "BREAK!"
-
 Write-Information "Getting random data: '$customUri', '$time'"
 
 Write-Information "Waiting"
