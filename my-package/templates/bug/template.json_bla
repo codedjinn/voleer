@@ -5,6 +5,6 @@
   "name": "bug-data-set",
   "displayName": "Testing Bug",
   "description": "Fixing bugs.",
-  "dataSchemaVersion": "0.0.1",
+  "dataSchemaVersion": "0.0.2",
   "keywords": []
 }
