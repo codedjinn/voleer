@@ -1,7 +1,7 @@
 {
   "$schema": "https://go.voleer.dev/schemas/v1/template.json",
   "apiVersion": "v1",
-  "type": "dataset",
+  "type": "automation",
   "name": "bug-data-set",
   "displayName": "Testing Bug",
   "description": "Fixing bugs.",
