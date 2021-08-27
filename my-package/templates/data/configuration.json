@@ -1,28 +1,28 @@
 {
-    "$schema": "https://go.voleer.dev/schemas/v1/workflow.json",
-    "apiVersion": "v1",
-    "body": {
-      "type": "form",
-      "description": "Get some data",
-      "name": "form",
-      "displayName": "Data Inputs",
-      "validation": {
-        "scriptPath": "./validation.ps1"
+  "$schema": "https://go.voleer.dev/schemas/v1/workflow.json",
+  "apiVersion": "v1",
+  "body": {
+    "type": "form",
+    "description": "Get some data",
+    "name": "form",
+    "displayName": "Data Inputs",
+    "validation": {
+      "scriptPath": "./validation.ps1"
+    },
+    "components": [
+      {
+        "name": "instructions",
+        "type": "paragraph",
+        "content": "# Enter time to stall"
       },
-      "components": [
-        {
-          "name": "instructions",
-          "type": "paragraph",
-          "content": "# Enter time to stall"
-        },
-        {
-          "type": "textInput",
-          "description": "Time to wait in seconds",
-          "label": "Seconds",
-          "name": "time",
-          "required": true
-        }
-      ]
-    }
+      {
+        "type": "textInput",
+        "description": "Time to wait in seconds",
+        "label": "Seconds",
+        "name": "time",
+        "required": true
+      }
+    ]
   }
+}
   
