@@ -1,0 +1,36 @@
+{
+  "$schema": "https://go.voleer.dev/schemas/v1/workflow.json",
+	"apiVersion": "v1",
+	"body": {
+		"type": "sequence",
+		"items": [
+			{
+				"type": "form",
+				"name": "form",
+				"displayName": "Command Form",
+        "timeout": { "durationInSeconds": 60 },
+				"components": [
+          {
+            "type": "textInput",
+            "name": "command",
+            "label": "Enter 'fail' to fail, anything else to succeed, or wait 1 minute to timeout"
+          }
+				]
+			},
+			{
+				"type": "switch",
+				"value": "${steps.form.outputs.command}",
+				"cases": [
+				{
+					"option": "fail",
+					"body": {
+            "type": "form",
+            "name": "formFail",
+            "displayName": "${thisFailsHere}",
+            "components": []
+          }
+        }]
+			}
+		]
+  }
+}
