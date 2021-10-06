@@ -9,7 +9,7 @@
             {
                 "name": "doSomething",
                 "type": "packageTask",
-                "displayName": "Doing Something",
+                "displayName": "${IAmBroke}",
                 "description": "PEW PEW PEW!",
                 "package": "voleer/my-package",
                 "task": "something"

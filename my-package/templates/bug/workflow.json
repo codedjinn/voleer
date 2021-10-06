@@ -2,8 +2,9 @@
   "$schema": "https://go.voleer.dev/schemas/v1/workflow.json",
   "apiVersion": "v1",
   "body": {
+      "type":"form",
       "name": "myForm",
-      "displayName": "${wrongCELexpression}",
+      "displayName": "${breakPlease}",
       "components": []
   }
 }
