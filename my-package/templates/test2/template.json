@@ -1,0 +1,9 @@
+{
+  "$schema": "https://go.voleer.dev/schemas/v1/template.json",
+  "apiVersion": "v1",
+  "type": "automation",
+  "name": "test2",
+  "displayName": "Testing 2",
+  "description": "Learning how to create templates !!!",
+  "keywords": ["dev", "automation"]
+}
