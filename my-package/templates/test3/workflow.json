@@ -1,0 +1,19 @@
+{
+  "$schema": "https://go.voleer.dev/schemas/v1/workflow.json",
+  "apiVersion": "v1",
+  "body": {
+      "name": "root",
+      "description": "steps",
+      "type": "sequence",
+      "items": [
+          {
+              "name": "doExec",
+              "type": "packageTask",
+              "displayName": "exec",
+              "description": "",
+              "package": "voleer/my-package",
+              "task": "exec"
+          }
+      ]
+  }
+}
