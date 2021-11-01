@@ -3,9 +3,13 @@ Write-Information "Started"
 
 Write-Warning "THIS IS A WARNING!"
 
-Start-Sleep -Seconds 0.25
+Start-Sleep -Seconds 10
 
 Write-Error "THIS IS A ERROR!"
+
+Start-Sleep -Seconds 10
+
+Write-Information "PEW PEW PEW"
 
 # Write-Information "Exec Started"
 
