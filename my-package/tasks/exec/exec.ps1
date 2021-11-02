@@ -3,11 +3,11 @@ Write-Information "Started"
 
 Write-Warning "THIS IS A WARNING!"
 
-Start-Sleep -Seconds 10
+Start-Sleep -Seconds 5
 
-Write-Error "THIS IS A ERROR!"
+# Write-Error "THIS IS A ERROR!"
 
-Start-Sleep -Seconds 10
+# Start-Sleep -Seconds 5
 
 Write-Information "PEW PEW PEW"
 
