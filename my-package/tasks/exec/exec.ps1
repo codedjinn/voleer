@@ -1,23 +1,10 @@
 
-Write-Information "Started"
-
-Write-Warning "THIS IS A WARNING!"
+$context.SaveMessage("Information", "INFORMATION")
 
 Start-Sleep -Seconds 5
 
-# Write-Error "THIS IS A ERROR!"
+$context.SaveMessage("Warning", "WARNING")
 
-# Start-Sleep -Seconds 5
+Start-Sleep -Seconds 5
 
-Write-Information "PEW PEW PEW"
-
-# Write-Information "Exec Started"
-
-# try {
-#   Invoke-RestMethod -Uri "https://api.sendgrid.com/v3/mail/send"
-# }
-# catch {
-#   Write-Warning "Failed: $_"
-# }
-
-# Set-VoleerRunSummary -Summary "THIS IS THE RUN SUMMARY!"
+$context.SaveMessage("Error", "ERROR")
