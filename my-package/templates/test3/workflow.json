@@ -13,15 +13,7 @@
               "description": "",
               "package": "voleer/my-package",
               "task": "exec"
-          },
-          {
-            "name": "doExec",
-            "type": "packageTask",
-            "displayName": "exec 2",
-            "description": "",
-            "package": "voleer/my-package",
-            "task": "exec2"
-        }
+          }
       ]
   }
 }
